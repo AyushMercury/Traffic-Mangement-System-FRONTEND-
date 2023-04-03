@@ -1,0 +1,144 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Header styles */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 3px;
+    color: #fff;   
+    width: 96%;
+    
+}
+
+.logo img {
+    height: 200px;
+    width: 242px;
+ 
+}
+
+.topic{
+    text-align:start;
+    width: 90%;
+    background: #1C86C2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+/* Sidebar styles */
+aside {
+    background-color: #0080ff;
+    width: 200px;
+    height: 71%;
+    position: fixed;
+    top: 20%;
+    margin-top: 2%;
+    padding: 10px;
+    margin-left:1%;
+}
+.sidebar {
+    display: grid;
+    justify-content: center;
+  }
+
+.sidebar button {
+    
+    width: 83%;
+    padding:20px;
+    border:none;
+    background-color: #C01C58;
+    text-align: center;
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    top:40px;
+    margin-bottom: 20px;
+}
+
+.sidebar button:hover {
+    background-color: #666;
+}
+
+/* Main content styles */
+
+
+
+.profile-button {
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 2px;
+    float: top;
+    margin-right: 110px;
+    margin: 30%;
+}
+
+.menu button {
+    margin-top: 100px;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button:not(.menu-button) {
+    margin: 5px 10px;
+}
+
+h2{
+    background-color: #fff;
+    align-items: center;
+    padding: 8px 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+main{
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 10px;
+    
+    
+    
+
+}
+
+
+  .buttons {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons button {
+    margin: 0 100px;
+    padding: 20px 40px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    color: #fff;
+    border: none;
+    /*border-radius: 5px;*/
+    font-size: 16px;
+    cursor: pointer;
+    width: 30%;
+    background-color: #0080ff;
+    height: 70px;
+}
+
+.buttons button:hover {
+    background-color: #666;
+}
+
